@@ -1,7 +1,6 @@
 body {
   font-family: Arial;
   margin: 0;
-  display: flex;
 }
 
 header {
@@ -11,14 +10,33 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
-  background-color: #13293d;
+  background-color: purple;
   color: #fff;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+  ;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
+  padding: 5px;
 }
 
 nav a {
@@ -33,7 +51,7 @@ nav a:hover {
 
 aside {
   flex: 1;
-  background-color: #b9c6ae;
+  background-color: lightseagreen;
   padding: 80px;
   text-align: left;
 }
@@ -46,7 +64,18 @@ footer {
   color: #fff;
 }
 
-.projects {
+.top {
+  font-family: Arial;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: purple;
+  color: #fff;
+}
+
+.workSamples {
   flex: 4;
   background-color: #fff;
   padding: 50px;
@@ -56,7 +85,7 @@ footer {
   align-items: flex-start;
 }
 
-.card {
+.project {
   border-style: solid;
   border-width: 1px;
   padding: 10px;
@@ -67,16 +96,16 @@ footer {
   transform: rotate(10deg);
 }
 
-.card header {
+.project header {
   padding: 20px;
   border-radius: 8px 8px 0px 0px;
 }
 
-.card p {
+.project p {
   text-align: center;
 }
 
-.card img {
+.project img {
   width: 100%;
 }
 
@@ -88,18 +117,6 @@ footer {
   color: darkblue;
 }
 
-
-#email {
-  background-color: goldenrod;
-}
-
-#github {
-  background-color: lightsteelblue;
-}
-
-#portfolio {
-  background-color: darkorange;
-}
 
 
 @media screen and (max-width: 768px) {
