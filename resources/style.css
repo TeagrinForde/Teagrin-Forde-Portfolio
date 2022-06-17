@@ -1,0 +1,113 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  display: flex;
+}
+
+header {
+  font-family: Arial;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 80px;
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+.projects {
+  flex: 4;
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  margin: 20px;
+  flex: 0 0 300px;
+  border-radius: 8px;
+  box-shadow: 5px 10px #13293d;
+  transform: rotate(10deg);
+}
+
+.card header {
+  padding: 20px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.lesson {
+  background-color: lemonchiffon;
+}
+
+.title {
+  color: darkblue;
+}
+
+
+#email {
+  background-color: goldenrod;
+}
+
+#github {
+  background-color: lightsteelblue;
+}
+
+#portfolio {
+  background-color: darkorange;
+}
+
+
+@media screen and (max-width: 768px) {
+  header,
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
+
+  
