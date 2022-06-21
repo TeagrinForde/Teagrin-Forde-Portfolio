@@ -14,9 +14,14 @@ header {
   color: #fff;
 }
 
+.main {
+  display: flex;
+}
+
 .inline {
   display: flex;
   align-items: center;
+  /* put space between pic and name box*/
 }
 
 header img {
@@ -40,12 +45,13 @@ nav ul {
 }
 
 nav a {
-  color: #b9c6ae;
+  color: lightseagreen;
   font-weight: bold;
   text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover,
+footer a:hover {
   color: #fff;
 }
 
@@ -59,9 +65,14 @@ aside {
 footer {
   display: flex;
   justify-content: center;
+  align-content: center;
   padding: 2%;
-  background-color: #13293d;
+  background-color: purple;
   color: #fff;
+}
+
+footer a {
+  color: lightseagreen;
 }
 
 .top {
@@ -75,7 +86,15 @@ footer {
   color: #fff;
 }
 
-.workSamples {
+.top a {
+  color:#fff;
+}
+
+aside ul {
+  list-style-type: square;
+}
+
+#workSamples {
   flex: 4;
   background-color: #fff;
   padding: 50px;
@@ -90,14 +109,15 @@ footer {
   border-width: 1px;
   padding: 10px;
   margin: 20px;
-  flex: 0 0 300px;
+  flex: 0 0 200px;
   border-radius: 8px;
-  box-shadow: 5px 10px #13293d;
-  transform: rotate(10deg);
+  box-shadow: 5px 10px lightseagreen;
+  transform: rotate(-8deg);
+  object-fit: scale-down;
 }
 
-.project header {
-  padding: 20px;
+.project h1 {
+  padding: 10px;
   border-radius: 8px 8px 0px 0px;
 }
 
@@ -106,22 +126,18 @@ footer {
 }
 
 .project img {
-  width: 100%;
+  min-width: 20px;
+  max-width: 100%;
 }
 
-.lesson {
-  background-color: lemonchiffon;
+#first img {
+  min-width: 50px;
+  max-width: 300px;;
 }
-
-.title {
-  color: darkblue;
-}
-
-
 
 @media screen and (max-width: 768px) {
   header,
-  main,
+  .main,
   nav {
     flex-direction: column;
   }

@@ -11,64 +11,72 @@
 
 <header>
   <div class="inline">
-      <img rel="image/jpg" src="./resources/Profile Pic.jpg" alt="Teagrin Forde">
-      <div class="block">
-        <h1 class="name">Teagrin Forde</h1>
-        <p>Web Developer</p>
-      </div>
+    <img rel="image/jpg" src="./resources/Profile Pic.jpg" alt="Teagrin Forde">
+    <div class="block">
+      <h1 class="name">Teagrin Forde</h1>
+      <p>Web Developer</p>
     </div>
+  </div>
   <nav>
     <ul>
-      <li><a href="#">Work Samples</a></li>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#workSamples">Work Samples</a></li>
+      <li><a href="#aboutMe">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
 
 <body>
+  <div class="main">
 
-  <aside>
-    <h2 class="aboutMe">About Me</h2>
-    <ul>
-      <li>fact</li>
-      <li>fact</li>
-      <li>fact</li>
-    </ul>
-    <p>New web developer with 15 years experience as a high school math teacher and coach of multiple sports. I am
-      currently enrolled in the Georgia Tech Full Stack Web Development Boot Camp and could not be more excited to go
-      on this new adventure! I have previous certifications from Codecademy using the three basic, Front-End systems
-      of HTML, CSS, and JavaScript.</p>
-  </aside>
+    <aside>
+      <h2 id="aboutMe">About Me</h2>
+      <br>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Project Management</li>
+      </ul>
+      <br>
+      <p>New web developer with 15 years experience as a high school math teacher and coach of multiple sports. I am
+        currently enrolled in the Georgia Tech Full Stack Web Development Boot Camp and could not be more excited to go
+        on this new adventure! I have previous certifications from Codecademy using the three basic, Front-End systems
+        of HTML, CSS, and JavaScript. I also have my PMP certification through Google's Coursera.</p>
+    </aside>
 
-  <div class="workSamples">
-    <section class="project">
-      <h1 class='top'>Project 1</h1>
-      <img rel="image/jpg" src="./resources/Profile Pic.jpg" alt="Project 1" />
-      <p>Name</p>
-    </section>
+    <div id="workSamples">
+      <section class="project">
+        <h1 class='top'>Colmar Academy Website</h1>
+        <a href="https://teagrinforde.github.io/colmar_academy/" id="first"><img rel="image/png" src="./resources/colmarAcademy.PNG" alt="colmarAcademy" /></a>
+        <p>Capstone Front-End Web Development</p>
+      </section>
 
-    <section class="project">
-      <h1 class='top'>Project 2</h1>
-      <img rel="image/jpg" src="./resources/Profile Pic.jpg" alt="Project 2" />
-      <p>Name</p>
-    </section>
+      <section class="project">
+        <h1 class='top'>Excursion Project</h1>
+        <a href="https://teagrinforde.github.io/Excursion/"><img rel="image/png" src="./resources/excursion.PNG" alt="Excursion Project" /></a>
+        <p>Excursion Application Project</p>
+      </section>
 
-    <section class="project">
-      <h1 class='top'>Project 3</h1>
-      <img rel="image/jpg" src="./resources/Profile Pic.jpg" alt="Project 3" />
-      <p>Name</p>
-    </section>
+      <section class="project">
+        <h1 class='top'>Tabletop Tablets Project</h1>
+            <a href="https://drive.google.com/drive/folders/18P-lEbXgIfPJO24LL8L4htJsxL0Fcpur?usp=sharing"
+            target="_blank"><img rel="image/png" src="./resources/S&S.PNG" alt="Sauce & Spoon" /></a>
+        <p>Captstone PMP</p>
+      </section>
 
-    <section class="project">
-      <h1 class='top'>Project 4</h1>
-      <img rel="image/jpg" src="./resources/Profile Pic.jpg" alt="Project 4" />
-      <p>Name</p>
-    </section>
+      <section class="project">
+        <h1 class='top'>Changing Careers</h1>
+        <img rel="image/jpg" src="./resources/Profile Pic.jpg" alt="employment" />
+        <p>Available for hire</p>
+      </section>
+
+    </div>
+
   </div>
 
   <footer>
-    <h2 class="contact">Contact Info</h2>
+    <h2 id="contact">Contact Info</h2>
     <ul>
       <li id="email"><strong>Email: </strong><a href="mailto:teagrinb@gmail.com">teagrinb@gmail.com</a></li>
       <li id="github"><strong>GitHub: </strong><a href="https://github.com/TeagrinForde">@TeagrinForde</a></li>
