@@ -9,3 +9,5 @@ The header of this page includes a photo of Teagrin Forde, name, and navigation 
 In the footer of the website, you can find the contact information for Teagrin Forde: ![image](https://user-images.githubusercontent.com/101753839/175117252-1aab44a6-fe8b-48dd-b4c5-fe2af76502b3.png)
 
 All links are active and working so that potential employers can reach out immediately.
+
+https://teagrinforde.github.io/portfolio-challenge2/
