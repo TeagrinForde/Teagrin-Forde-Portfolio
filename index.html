@@ -1,100 +1,198 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <title>Teagrin Forde Portfolio</title>
+    <link rel="stylesheet" href="./resources/reset.css" />
+    <link rel="stylesheet" href="./resources/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Teagrin Forde Portfolio</title>
-  <link rel="stylesheet" href="./resources/reset.css">
-  <link rel="stylesheet" href="./resources/style.css">
-</head>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand" href="#"
+        ><img
+          rel="image/jpg"
+          src="./resources/Profile Pic.jpg"
+          alt="Teagrin Forde"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-warning" href="#workSamples"
+              >Work Samples<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#aboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <div class="block">
+            <h1 class="name">Teagrin Forde</h1>
+            <p>Web Developer</p>
+          </div>
+        </span>
+      </div>
+    </nav>
+  </header>
 
+  <body>
+    <div class="row col-12 p-4">
+      <dev class="card col-3">
+        <h2 id="aboutMe" class="card-title">About Me</h2>
+        <br />
+        <ul class="list-group list-group-flush">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>jquery</li>
+          <li>jqueryUI</li>
+          <li>moment.js</li>
+          <li>API Integration</li>
+          <li>Bootstrap</li>
+          <li>Project Management - PMP Certified</li>
+        </ul>
+        <br />
+        <p class="card-text">
+          Web developer with 15 years management experience as a high school
+          math teacher and coach of multiple sports. I am currently enrolled in
+          the Georgia Tech Full Stack Web Development Boot Camp (graduation date
+          September 2nd, 2020) and could not be more excited to go on this new
+          adventure! I have previous certifications from Codecademy using the
+          three basic, Front-End systems of HTML, CSS, and JavaScript. I also
+          have my PMP certification through Google's Coursera and am actively
+          looking for employment. If you are interested in hiring an energetic,
+          collaborative, innovator and lifelong learner; please contact me by
+          using the links below.
+        </p>
+      </dev>
 
-<header>
-  <div class="inline">
-    <img rel="image/jpg" src="./resources/Profile Pic.jpg" alt="Teagrin Forde">
-    <div class="block">
-      <h1 class="name">Teagrin Forde</h1>
-      <p>Web Developer</p>
+      <div class="card-columns workSamples col-9">
+        <section class="card project" style="width: auto">
+          <h1 class="card-top">Sunshine Wellness Center</h1>
+          <a href="https://catcueto.github.io/wellness-project/" id="first"
+            ><img
+              class="card-img"
+              rel="image/png"
+              src="./resources/SWC.png"
+              alt="Sunshine Wellness Center"
+          /></a>
+          <p class="text-muted">Mental Health and Wellness Application</p>
+        </section>
+
+        <section class="card project">
+          <h1 class="card-top">Colmar Academy Website</h1>
+          <a href="https://teagrinforde.github.io/colmar_academy/"
+            ><img
+              class="card-img"
+              rel="image/png"
+              src="./resources/colmarAcademy.PNG"
+              alt="colmarAcademy"
+          /></a>
+          <p class="text-muted">Capstone Front-End Web Development</p>
+        </section>
+
+        <section class="card project">
+          <h1 class="card-top">Excursion Project</h1>
+          <a href="https://teagrinforde.github.io/Excursion/"
+            ><img
+              class="card-img"
+              rel="image/png"
+              src="./resources/excursion.PNG"
+              alt="Excursion Project"
+          /></a>
+          <p class="text-muted">Excursion Application Project</p>
+        </section>
+
+        <section class="card project">
+          <h1 class="card-top">Tabletop Tablets Project</h1>
+          <a
+            href="https://drive.google.com/drive/folders/18P-lEbXgIfPJO24LL8L4htJsxL0Fcpur?usp=sharing"
+            target="_blank"
+            ><img
+              class="card-img"
+              rel="image/png"
+              src="./resources/S&S.PNG"
+              alt="Sauce & Spoon"
+          /></a>
+          <p class="text-muted">Captstone PMP</p>
+        </section>
+
+        <section class="card project">
+          <div
+            class="badge-base LI-profile-badge card-img"
+            data-locale="en_US"
+            data-size="medium"
+            data-theme="dark"
+            data-type="VERTICAL"
+            data-vanity="teagrin-forde-pmp-519422197"
+            data-version="v1"
+          >
+            <a
+              class="badge-base__link LI-simple-link"
+              href="https://www.linkedin.com/in/teagrin-forde-pmp-519422197?trk=profile-badge"
+              >Teagrin Forde, PMP</a
+            >
+          </div>
+          <p class="card-top">Available for hire</p>
+        </section>
+      </div>
     </div>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="#workSamples">Work Samples</a></li>
-      <li><a href="#aboutMe">About Me</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+    <script
+      src="https://platform.linkedin.com/badges/js/profile.js"
+      async
+      defer
+      type="text/javascript"
+    ></script>
 
-<body>
-  <div class="main">
-
-    <aside>
-      <h2 id="aboutMe">About Me</h2>
-      <br>
+    <footer>
+      <h2 id="contact">Contact Info</h2>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>jquery</li>
-        <li>jqueryUI</li>
-        <li>moment.js</li>
-        <li>API Integration</li>
-        <li>Bootstrap</li>
-        <li>Project Management - PMP Certified</li>
+        <li id="email">
+          <strong>Email: </strong
+          ><a href="mailto:teagrinb@gmail.com">teagrinb@gmail.com</a>
+        </li>
+        <li id="github">
+          <strong>GitHub: </strong
+          ><a href="https://github.com/TeagrinForde">@TeagrinForde</a>
+        </li>
       </ul>
-      <br>
-      <p>Web developer with 15 years management experience as a high school math teacher and coach of multiple sports. I am currently enrolled in the Georgia Tech Full Stack Web Development Boot Camp (graduation date September 2nd, 2020) and could not be more excited to go on this new adventure! I have previous certifications from Codecademy using the three basic, Front-End systems of HTML, CSS, and JavaScript. I also have my PMP certification through Google's Coursera and am actively looking for employment. If you are interested in hiring an energetic, collaborative, innovator and lifelong learner; please contact me by using the links below.</p>
-    </aside>
-
-    <div id="workSamples">
-      <section class="project">
-        <h1 class='top'>Sunshine Wellness Center</h1>
-        <a href="https://catcueto.github.io/wellness-project/" id="first"><img rel="image/png" src="./resources/SWC.png" alt="Sunshine Wellness Center" /></a>
-        <p>Project 1 - GA Tech Full Stack Bootcamp</p>
-      </section>
-
-      <section class="project">
-        <h1 class='top'>Colmar Academy Website</h1>
-        <a href="https://teagrinforde.github.io/colmar_academy/"><img rel="image/png" src="./resources/colmarAcademy.PNG" alt="colmarAcademy" /></a>
-        <p>Capstone Front-End Web Development</p>
-      </section>
-
-      <section class="project">
-        <h1 class='top'>Excursion Project</h1>
-        <a href="https://teagrinforde.github.io/Excursion/"><img rel="image/png" src="./resources/excursion.PNG" alt="Excursion Project" /></a>
-        <p>Excursion Application Project</p>
-      </section>
-
-      <section class="project">
-        <h1 class='top'>Tabletop Tablets Project</h1>
-            <a href="https://drive.google.com/drive/folders/18P-lEbXgIfPJO24LL8L4htJsxL0Fcpur?usp=sharing"
-            target="_blank"><img rel="image/png" src="./resources/S&S.PNG" alt="Sauce & Spoon" /></a>
-        <p>Captstone PMP</p>
-      </section>
-
-      <section class="project">
-        <h1 class='top'>Changing Careers</h1>
-        <img rel="image/jpg" src="./resources/Profile Pic.jpg" alt="employment" />
-        <p>Available for hire</p>
-      </section>
-
-    </div>
-
-  </div>
-
-  <footer>
-    <h2 id="contact">Contact Info</h2>
-    <ul>
-      <li id="email"><strong>Email: </strong><a href="mailto:teagrinb@gmail.com">teagrinb@gmail.com</a></li>
-      <li id="github"><strong>GitHub: </strong><a href="https://github.com/TeagrinForde">@TeagrinForde</a></li>
-      <li id="portfolio"><strong>LinkedIn Profile: </strong><a
-          href="https://www.linkedin.com/in/teagrin-forde-519422197/">Teagrin Forde</a></li>
-    </ul>
-  </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>
