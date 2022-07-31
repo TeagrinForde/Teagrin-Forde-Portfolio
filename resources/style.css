@@ -11,13 +11,17 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 2%;
+  padding: 5%;
   background-color: purple;
   color: #fff;
 }
 
 footer a {
   color: lightseagreen;
+}
+
+.about {
+  background-color: teal;
 }
 
 .card-top {
@@ -27,6 +31,7 @@ footer a {
 
 .card-top a {
   color:#fff;
+  text-align: center;
 }
 
 .project {
@@ -37,7 +42,6 @@ footer a {
   flex: 0 0 200px;
   border-radius: 8px;
   box-shadow: 5px 10px lightseagreen;
-  transform: rotate(-8deg);
   object-fit: scale-down;
 }
 
