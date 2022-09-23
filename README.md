@@ -10,4 +10,4 @@ In the footer of the website, you can find the contact information for Teagrin F
 
 All links are active and working so that potential employers can reach out immediately.
 
-[https://teagrinforde.github.io/Teagrin-Forde-Portfolio/]
+https://teagrinforde.github.io/Teagrin-Forde-Portfolio/
